@@ -6,3 +6,8 @@ html {
 	
 	font: normal 100%/1.4 Georgia, serif;
 }
+
+.current {
+	background-color: deepskyblue;
+	color: white;
+}
