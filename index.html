@@ -10,9 +10,9 @@ layout: default
 
 	
 <ol>
-	{% for planet in site.categories.planet-type %}
+	{% for planet in site.data.planet-types %}
 	<a href="#"><li> {{planet.title}} </li></a>
-	{{planet.content}}
+	{{planet.content | markdownify}}
 	{% endfor %}
 </ol>
 
