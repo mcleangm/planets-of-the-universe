@@ -1,9 +1,6 @@
 ---
 layout: default
----
-
-<strong>Comets</strong>
-
+--- <strong>Comets</strong>
 <nav>
   <ul>
     {% for comet in site.comets %}
@@ -15,5 +12,8 @@ layout: default
     {% endfor %}
   </ul>
 </nav>
-
-{{content}} 
+<h1>{{page.title}}</h1>
+<figure>
+  <img src="{{site.baseurl}}/img/{{page.img}}" alt="">
+  <figcaption>{{content}}</figcaption>
+</figure>
