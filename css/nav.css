@@ -1,7 +1,7 @@
 /* CSS Document */
 .current {
-	background-color: deepskyblue;
-	color: white;
+	background-color: yellow;
+	color: mediumpurple;
 }
 
 .nav {
@@ -16,7 +16,7 @@
 }
 
 .nav > li a {
-	color: lightyellow
+	color: mediumpurple;
 }
 
 .nav-header {
