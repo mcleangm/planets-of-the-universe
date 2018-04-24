@@ -11,7 +11,7 @@ layout: default
 	
 <ol>
 	{% for planet in site.data.planet-types %}
-	<a href="#"><li> {{planet.title}} </li></a>
+	<a href="{{site.baseurl}}/planets/{{planet.folder}}/"><li> {{planet.title}} </li></a>
 	{{planet.content | markdownify}}
 	{% endfor %}
 </ol>
